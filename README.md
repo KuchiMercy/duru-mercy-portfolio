@@ -1,3 +1,6 @@
+Here's the link to the deployed project: https://duru-mercy.vercel.app/
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

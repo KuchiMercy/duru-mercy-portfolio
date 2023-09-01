@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #0B3229;
+}
+
+.quote{
+    background-image: url(./assets/cloudGreen.jpg);
+}
+
+.btn{
+    @apply rounded-md mx-3 px-3 my-4 border-secondary border-2  bg-secondary text-xs font-bold text-white  hover:bg-transparent transition ease-out duration-500 hover:text-secondary hover:border-secondary hover:border-2 outline-none font-inknut m-2 p-1 text-center md:my-1;
+}
+.card{
+    @apply bg-orange-300 h-full rounded overflow-hidden shadow-md relative;
+}
+.badge{
+    @apply bg-amber-100 w-32 text-xs uppercase font-bold text-center rounded-full p-2 ml-5 mt-2;
+}
